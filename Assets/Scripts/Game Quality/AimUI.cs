@@ -3,6 +3,7 @@ using UnityEngine;
 [DefaultExecutionOrder(200)]
 public class AimUI : MonoBehaviour
 {
+    /*
     [Header("References")]
     [SerializeField] private PlayerAim playerAim;
     [SerializeField] private Camera playerCamera;
@@ -21,7 +22,7 @@ public class AimUI : MonoBehaviour
         if (playerAim == null || playerCamera == null)
             return;
 
-        Vector3 screenPosition =
+         Vector3 screenPosition =
             playerCamera.WorldToScreenPoint(playerAim.AimPoint);
 
         bool visible =
@@ -49,4 +50,6 @@ public class AimUI : MonoBehaviour
             aimImage.anchoredPosition = localPosition;
         }
     }
+    */
 }
+    
